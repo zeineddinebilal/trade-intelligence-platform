@@ -105,7 +105,7 @@ Run the tests with `pytest -v`.
 5. When prompted, enter the secrets `GEMINI_API_KEY` and `DASHBOARD_PASSWORD`.
 6. Click **Apply**. Render builds the service and redeploys on every push to `main`.
 
-`render.yaml` uses paid plans (`starter` web service, `basic-256mb` Postgres). For a throwaway test you can change both to `free` — the service will sleep when idle and Render's free databases expire after a limited period.
+`render.yaml` uses Render's **free** plans: the web service sleeps after ~15 minutes idle (first load afterwards takes ~30–60 s) and the free Postgres database expires after 30 days. To upgrade, change `plan: free` to `plan: starter` (web) and `plan: basic-256mb` (database) and push.
 
 ## Known Limitations
 
