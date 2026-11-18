@@ -1,0 +1,18 @@
+{
+  "stakeholder_code": "MOFA-GULF-DEMO",
+  "ministry_name": "Ministry of Foreign Affairs & International Trade (Executive Directorate)",
+  "priority_sectors": [
+    {"name": "Shrimp & Prawns (Aquaculture)", "hs_code": "0306", "weight": 1.0},
+    {"name": "Milk, Cream & Dairy Concentrates", "hs_code": "0401-0406", "weight": 0.95},
+    {"name": "Cereals & Milling Grains", "hs_code": "10", "weight": 0.85},
+    {"name": "Aluminum & Value-Added Light Industrials", "hs_code": "76", "weight": 0.75}
+  ],
+  "key_counterpart_markets": ["United States", "European Union", "China", "India", "Japan"],
+  "bilateral_goals": [
+    "Expand non-oil re-export & certified aquaculture market share in US and EU retail chains",
+    "Secure resilient dairy and grain import corridors insulated from regional drought shocks",
+    "Leverage Comprehensive Economic Partnership Agreements (CEPAs) for rapid tariff-window capture"
+  ],
+  "risk_tolerance": "MODERATE",
+  "min_confidence_for_escalation": 0.65
+}
